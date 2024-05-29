@@ -1,0 +1,25 @@
+h1 {
+  color: #321;
+}
+
+p {
+  color: #321;
+}
+
+a {
+  color: #321;
+}
+
+div p {
+  background-color: blue;
+  color: #fff;
+}
+div p span {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */

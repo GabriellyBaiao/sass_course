@@ -2,13 +2,14 @@
 $text-color: #321
 $bg-color: blue
 $h2-color: green
+$border: 2px solid red
 
 h1
   color: $text-color
-
+  border: $border
 p
   color: $text-color
-
+  border: $border   
 a
   color: $text-color
 
@@ -17,11 +18,16 @@ div
     // Escopo local
     $font-color: #fff
     $font2-color: red
+    //Shadowing
+    $border: 3px dotted green
     background-color: $bg-color
     color: $font-color
+    border: $border
 
     span
       color: $font2-color
+      border: $border
 
 h2
   color: $h2-color
+  border: $border

@@ -1,21 +1,20 @@
-@import  'variables'
+@charset "UTF-8"
+  
+@import 'variables'
 @import 'button'
 @import 'mixins'
-@import 'pluggins'
+@import 'plugins'
+
+
 body
-    margin: 20px
+  margin: 20px
 
 .p-esp
-   @include special
+  @include special
 
 h2
-  @extend special
+  @extend %special
   @include green
-
-%font-pattern
-  font-size: 2rem
-  line-height: 1.5rem
-  text-transform: uppercase
 
 .esp-menor
   @include espacamento(10px, 10px)
@@ -31,14 +30,14 @@ h2
 
 .esp-maior
   @include espacamento(25px, 25px)
-  boder: 1px solid green
-  @include colors($background:#336699, $font:#991155)
+  @include custom-border(solid, green)
 
-.esp-maior-ainda
-  $pad: 50px
-  $mag: 50px
-  @include espacamento($pad, $mag)
-  @include custom-border(double, gold, 3px)
-  @include colors($font: gold)
-    
-   
+$medida: 4
+
+.container-menor
+  width: 100px * ($medida + 2)
+  border: custom-border-function()
+
+.container-maior
+  width: 25rem * $medida
+  border: custom-border-function(2)

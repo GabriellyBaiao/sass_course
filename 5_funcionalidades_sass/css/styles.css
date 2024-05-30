@@ -43,7 +43,7 @@ h2:hover {
 .esp-medio {
   padding: 15px;
   margin: 15px;
-  border: 1px solid blue;
+  border: 4px dotted blue;
 }
 
 .esp-maior {
@@ -55,7 +55,7 @@ h2:hover {
 .esp-maior-ainda {
   padding: 50px;
   margin: 50px;
-  border: 1px solid gold;
+  border: 3px double gold;
 }
 
 /*# sourceMappingURL=styles.css.map */

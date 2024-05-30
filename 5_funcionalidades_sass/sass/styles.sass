@@ -4,6 +4,7 @@
 @import 'button'
 @import 'mixins'
 @import 'plugins'
+@import 'functions'
 
 
 body
@@ -41,3 +42,11 @@ $medida: 4
 .container-maior
   width: 25rem * $medida
   border: custom-border-function(2)
+
+.fonte-pequena
+  font-size: 5px
+  color: text-color(5)
+
+.fonte-grande
+  font-size: 25px
+  color: text-color(25)

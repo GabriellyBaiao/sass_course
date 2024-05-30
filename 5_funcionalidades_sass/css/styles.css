@@ -75,4 +75,14 @@ h2 {
   border: custom-border-function(2);
 }
 
+.fonte-pequena {
+  font-size: 5px;
+  color: blue;
+}
+
+.fonte-grande {
+  font-size: 25px;
+  color: red;
+}
+
 /*# sourceMappingURL=styles.css.map */

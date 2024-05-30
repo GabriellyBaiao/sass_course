@@ -87,4 +87,19 @@ h2 {
   border: 3px dotted gold;
 }
 
+.teste-1 {
+  width: 100px;
+  background-color: red;
+}
+
+.teste-2 {
+  width: 500px;
+  background-color: green;
+}
+
+.teste-3 {
+  width: 40px;
+  background-color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */

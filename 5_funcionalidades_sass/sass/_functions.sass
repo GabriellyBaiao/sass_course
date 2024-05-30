@@ -12,20 +12,25 @@
   @return $color
 
 @function custom-border-function($variation: 1)
-    $border: none
+  
+  $border: none
+  $var: 3
 
-    @if $variation > 3
-      @error "Insira variações até o número 3"
+  @if $variation > $var
+    // @error "Insira variações até o número 3"
+    @warn "O número máximo de variações é #{$var}"
+  
+  @if $variation == 1
+    $border: 1px solid red
+  @else if $variation == 2
+    $border: 2px solid green
+  @else
+    $border: 3px dotted gold
 
-    @if $variation == 1
-      $border: 1px solid red
-    @else if $variation == 2
-      $border: 2px solid green
-    @else
-      $border: 3px dotted gold
-         
-    @return $border
+  @return $border
 
 @function custom-width($width: 200px, $division: 2)
-    
-    @return $width / $division
+
+  @debug "O valor da divisão é: #{$width / $division}"
+
+  @return $width / $division

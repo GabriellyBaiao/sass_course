@@ -67,22 +67,24 @@ h2 {
 
 .container-menor {
   width: 600px;
-  border: custom-border-function();
+  border: 1px solid red;
 }
 
 .container-maior {
   width: 100rem;
-  border: custom-border-function(2);
+  border: 2px solid green;
 }
 
 .fonte-pequena {
   font-size: 5px;
   color: blue;
+  border: 3px dotted gold;
 }
 
 .fonte-grande {
   font-size: 25px;
   color: red;
+  border: 3px dotted gold;
 }
 
 /*# sourceMappingURL=styles.css.map */

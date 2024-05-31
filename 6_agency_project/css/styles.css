@@ -1,3 +1,12 @@
+.btn {
+  padding: 0.6rem 1rem;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #FFF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +20,84 @@ a {
 
 li {
   list-style: none;
+}
+
+#main-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/office.jpg");
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+#main-banner .nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: #000;
+  z-index: 10;
+}
+#main-banner .nav-container .brand {
+  color: #FFF;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+#main-banner .nav-container .brand:hover {
+  color: #FF5200;
+}
+#main-banner .nav-container-navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#main-banner .nav-container-navbar li {
+  margin: 5px 10px;
+}
+#main-banner .nav-container-navbar li a {
+  color: #FFF;
+  transition: 0.3s;
+}
+#main-banner .nav-container-navbar li a:hover {
+  color: #FF5200;
+}
+#main-banner .nav-container .fas.fa-bars {
+  font-size: 2rem;
+  color: #FFF;
+  display: none;
+  color: #FFF;
+}
+#main-banner .nav-container .fas.fa-bars:hover {
+  border-color: #FF5200;
+  color: #FF5200;
+}
+#main-banner .nav-container .fas.fa-bars-primary {
+  background-color: #FF5200;
+  border-color: #FF5200;
+}
+#main-banner .nav-container .fas.fa-bars-primary:hover {
+  background-color: transparent;
+}
+#main-banner .nav-container .fas.fa-bars-rounded {
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+#main-banner .title-container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#main-banner .title-container h2 {
+  font-size: 3rem;
+}
+#main-banner .title-container h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

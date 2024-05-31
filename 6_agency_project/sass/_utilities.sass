@@ -8,8 +8,25 @@
 
   a
     text-decoration: none
-    
+  
   li
     list-style: none
 
-    
+@mixin main-hover
+  transition: .3s
+
+  &:hover
+    color: $primary-color
+
+//PLACEHOLDER SELECTORS
+%title-text-shadow
+  text-shadow: 3px 2px $black
+//BTNS
+.btn
+  padding: .6rem 1rem
+  border: 1px solid $light-color
+  text-transform: uppercase
+  border-radius: 5px
+  transition: .3s
+  color: #FFF
+

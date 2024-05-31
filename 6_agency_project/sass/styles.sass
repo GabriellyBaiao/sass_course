@@ -9,12 +9,6 @@
   background-size: cover 
   background-position: center
   
-  @include mobile
-    height: 100vh
-  nav
-    @include mobile
-      display: none
-
   .nav-container
     display: flex
     justify-content: space-between
@@ -25,9 +19,6 @@
     padding: 1.5rem 2rem
     background-color: $black
     z-index: 10
-
-    @include mobile
-      padding: 1rem
 
     .brand
       color: $light-color
@@ -51,9 +42,6 @@
       color: #FFF
       display: none
 
-      @include mobile
-        display: block
-
   .title-container
     color: $light-color
     display: flex
@@ -61,10 +49,6 @@
     align-items: center
     justify-content: center
     height: 100%
-
-    @include mobile
-      text-align: center
-      padding: 2rem
 
     h2
       font-size: 3rem
@@ -74,3 +58,42 @@
       font-size: 4rem
       margin-top: 1rem
       @extend %title-text-shadow
+
+.services-container
+  text-align: center
+  padding: 2rem
+  margin-bottom: 2rem
+
+  h2
+    @extend %section-title
+
+  .services-card-container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    padding: 2rem
+
+    .services-card
+      width: 30%
+      margin: 1%
+      padding: 2rem
+      border: 1px solid #CCC
+      transition: .3s
+
+      i
+        color: $primary-color
+        font-size: 4rem
+        display: block
+        margin-top: 1rem
+        margin-bottom: 1.5rem
+
+      h3
+        font-size: 1.5rem
+        margin-bottom: 1rem
+      
+      p
+        color: $text-color
+
+      &:hover
+        border: transparent
+        box-shadow: 0 1px 10px #CCC

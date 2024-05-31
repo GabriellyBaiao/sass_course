@@ -1,23 +1,27 @@
 @charset "UTF-8";
-/* Este coment├írio estar├í no CSS
+/* Este comentário estará no CSS
  * Continuando
  * o
  * Meu
- * Coment├írio
+ * Comentário
  * 120 */
-/*! Este coment├írio tb ser├í incluso */
+/*! Este comentário tb será incluso */
+/*! Lembrete: Para adicionar arquivo minificado use: sass --watch sass/styles.sass:css/styles.min.css --style compressed  */
 .container {
   background: #DDD;
-  padding: 20px; }
-  .container #title {
-    background-color: #111;
-    color: #F1f1f1;
-    padding: 15px;
-    text-align: center; }
+  padding: 20px;
+}
+.container #title {
+  background-color: #111;
+  color: #F1f1f1;
+  padding: 15px;
+  text-align: center;
+}
 
 .container-bottom {
   background-color: #DDD;
   text-align: center;
-  padding: 50px; }
+  padding: 50px;
+}
 
 /*# sourceMappingURL=styles.css.map */

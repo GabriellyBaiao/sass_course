@@ -1,14 +1,17 @@
-h1 {
-  color: red;
-  background-color: #000;
-  padding: 20px;
-  boder: 3px solid lightblue;
-  text-align: center;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 2 | @use '0-plugins/plugins'
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\main.sass 2:1  root stylesheet */
 
-p {
-  color: red;
-  font-size: 12px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @use '0-plugins/plugins'\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.sass 2:1  root stylesheet";
 }
-
-/*# sourceMappingURL=main.css.map */

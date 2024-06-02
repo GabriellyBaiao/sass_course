@@ -70,6 +70,17 @@ $verdadeiro: true
 @else 
     p
       color: blue
+
+@debug 10 == 10
+@debug 10 != 10
+
+$x: 20
+
+@debug x != 12
+
+@if $x != 12
+  h1
+    font-size: $x + px
      
      
      

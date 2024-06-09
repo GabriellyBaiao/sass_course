@@ -50,3 +50,22 @@ $lista: list.append($lista, 40px)
   $lista: list.append($lista, 50px)
 
 @debug $lista
+
+$lista2: 60px, 70px, 80px, 90px, 100px
+
+$lista3: list.join($lista, $lista2)
+
+@debug $lista3
+
+@debug list.length($lista)
+@debug list.length($lista3)
+
+@debug list.nth($lista, 3)
+@debug list.nth($lista3, 6)
+
+$font-size-title: list.nth($lista3, 4)
+
+@debug $font-size-title
+
+h1
+  font-size: $font-size-title

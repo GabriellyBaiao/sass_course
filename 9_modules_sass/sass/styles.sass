@@ -3,6 +3,7 @@
 @use 'sass:map'
 @use 'sass:math'
 @use 'sass:meta'
+@use 'sass:string'
 
 $color-adjust: color.adjust(#6B717F, $red: 25)
 $color-adjust-2: color.adjust(#6b717f, $red: 25, $blue: 110)
@@ -138,3 +139,16 @@ $a: 1, 2, 3, 4, 5
 @debug meta.type-of('string')
 @debug meta.type-of(#ffff)
 @debug meta.type-of(bold)
+
+$frase: "O rato roeu a roupa do rei de Roma"
+
+@debug string.index($frase, 'rei')
+
+@debug string.index($frase, 'Brasil')
+@debug string.length($frase)
+
+@debug string.to-lower-case($frase)
+@debug string.to-upper-case($frase)
+
+@debug string.unique-id()
+@debug string.unique-id()

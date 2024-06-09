@@ -21,3 +21,15 @@ $color-scale-2: color.scale($color-adjust-2, $lightness:  40%)
 
 .color-4
     background-color: color.invert($color-scale-2)
+
+.color-5
+    background-color: color.mix(#123123, #4f2f3f)
+
+.color-6
+    background-color: desaturate(#4f1f33, 60%)
+
+.color-7
+    background-color: #4f1f33
+
+    &:hover
+        background-color: lighten(#4f1f33, 60%)

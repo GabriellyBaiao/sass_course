@@ -1,0 +1,23 @@
+@use 'sass:color'
+
+$color-adjust: color.adjust(#6B717F, $red: 25)
+$color-adjust-2: color.adjust(#6b717f, $red: 25, $blue: 110)
+
+.color-1
+  color: $color-adjust
+  background-color: $color-adjust-2
+
+@debug color.blue($color-adjust)
+@debug color.blue($color-adjust-2)
+
+$color-scale: color.scale($color-adjust-2, $lightness: -40%)
+$color-scale-2: color.scale($color-adjust-2, $lightness:  40%)
+
+.color-2
+    background-color: $color-scale
+
+.color-3
+    background-color: $color-scale-2
+
+.color-4
+    background-color: color.invert($color-scale-2)

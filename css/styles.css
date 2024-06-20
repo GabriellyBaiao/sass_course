@@ -5,3 +5,16 @@ h1 {
 p{
     color: blue;
 }
+
+h2{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Este é um comentário*/
+/* 
+  Este
+  é um 
+  comentário
+*/

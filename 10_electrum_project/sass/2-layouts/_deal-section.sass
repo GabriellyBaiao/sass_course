@@ -3,7 +3,7 @@
 @use 'layouts-mixins'
 
 .deal-container
-  background-image: url('../../img/deal_headset.png')
+  background-image: url('../img/deal_headset.png')
   background-repeat: no-repeat
   background-position-x: 95%
   background-position-y: 2rem
@@ -24,6 +24,9 @@
     align-items: center
     @include layouts-mixins.center-content
     justify-content: center
+
+    @include base-mixins.mobile
+      text-align: center
 
     @include base-mixins.mobile
       text-align: center
@@ -49,7 +52,7 @@
       color: variables.$light-color
       margin: 0 1rem
 
-      @include base-mixins.mobile 
+      @include base-mixins.mobile
         margin-bottom: 1.5rem
 
       &-time

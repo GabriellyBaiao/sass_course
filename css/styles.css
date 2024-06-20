@@ -29,3 +29,82 @@ h2{
     color: purple;
     font-size: 40px;
 }
+/* Especificidade */
+
+div p {
+    color: red;
+}
+
+.p-dentro-da-div {
+   color: blue;
+}
+
+#p-super-especifico {
+    color: green
+}
+
+/* Cores */
+
+.nome {
+    color: orange;
+}
+
+.hexa {
+    color: #6a40c4;
+}
+
+.rgba {
+    color: rgba(17, 197, 214, .2);
+    font-size: 40px;
+}
+
+/*Backgrounds*/
+
+.div-background {
+    background-image: url("img/por-do-sol.jpg");
+    height: 300px;
+}
+
+.titulo-background {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+/*Fontes*/
+
+.family{
+    color: #000;
+    font-size: 40px;
+}
+
+.family.serif {
+    color: green;
+}
+.serif {
+    font-family: "times new roman";
+}
+
+.sans-serif {
+    font-family: arial;
+}
+
+.monospace {
+    font-family: "Courier New";
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.variant {
+    font-variant: small-caps;
+}

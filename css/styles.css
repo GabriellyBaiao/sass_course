@@ -187,6 +187,14 @@ body {
     left: 100px;
 }
 
+.fixed {
+    height: 200px;
+    position: fixed;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
 
 
 

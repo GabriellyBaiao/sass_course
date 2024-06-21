@@ -208,6 +208,37 @@ footer #footer-links li {
     color: #8E8E8E;
     margin-top: 10px;
 }
+ 
+/*MOBILE*/
+
+@media(max-width: 450px) {
+
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+        border: none;
+    } 
+
+    footer {
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-links li {
+        margin-bottom: 10px;
+    }
+}
 
 
 

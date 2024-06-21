@@ -61,7 +61,7 @@ div p {
 /*Backgrounds*/
 
 .div-background {
-    background-image: url("../css/img/por-do-sol.jpg");
+    background-image: url("img/por-do-sol.jpg");
     height: 300px;
 }
 
@@ -146,6 +146,10 @@ body {
     /* display: inline;
     display: inline-block; */
     display: block;
+    .paragrafo-box {
+        color: #000;
+        margin: 0;
+    }
 }
 
 /* Positions */
@@ -201,11 +205,31 @@ body {
     top: 0px;
 }
 
+/* Float */
 
-
-
-
-.paragrafo-box {
-    color: #000;
-    margin: 0;
+.container {
+    padding: 50px;
 }
+
+.div-float {
+    overflow: auto;
+}
+
+.img-float {
+    width: 200px; 
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: #000;
+}
+
+
+
+
+

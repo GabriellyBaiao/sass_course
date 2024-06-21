@@ -3,6 +3,7 @@ body {
 }
 .container {
     display: flex;
+    flex-direction: column-reverse;
     width: 100%;
     background-color: #FFF;
 }
@@ -10,20 +11,17 @@ body {
 .box {
     height: 100px;
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
 }
 
 .first {
-    background-color: red;
-    flex-shrink: 1;
+    background-color: red; 
 }
 
 .second {
-    background-color: green;
-    flex-shrink: 1;
+    background-color: green; 
 }
 
 .third {
-    background-color: blue;
-    flex-shrink: 2;
+    background-color: blue;  
 }

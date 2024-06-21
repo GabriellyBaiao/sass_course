@@ -18,8 +18,10 @@ body {
 
 .second {
     background-color: green;
+    flex-grow: 1;
 }
 
 .third {
     background-color: blue;
+    flex-grow: 2;
 }

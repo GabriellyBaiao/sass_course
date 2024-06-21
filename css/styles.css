@@ -265,6 +265,28 @@ body {
     background-color: #000;
 }
 
+.pai-em {
+    font-size: 50px;
+}
+.em-1 {
+    width: .5em;
+    height: .5em;
+    background-color: purple;
+}
+
+html {
+    font-size: 20px;
+}
+
+.rem-1 {
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+}
+
+.rem-2 {
+    font-size: 2rem;
+}
 
 
 

@@ -13,130 +13,202 @@
   flex-direction: row;
   margin-top: 30px;
 }
-
+  
 #banner-container,
 #form-container {
-    flex: 1 1 0;
-    width: 50px;
+  flex: 1 1 0;
+  width: 50%;
 }
-
+  
 #banner-container {
-    text-align: right;
+  text-align: right;
 }
-
+  
 #banner-container img {
-    margin-right: -15px;
+  margin-right: -15px;
 }
-
+  
 #form-container {
-    text-align: center;
+  text-align: center;
 }
-
-/*LOGIN FORM*/
-
+  
+/* LOGIN FORM */
 #form-box {
-    background-color: #fff;
-    border: 1px solid #DBDBDB;
-    width: 350px;
-    margin-top: 30px;
+  background-color: #FFF;
+  border: 1px solid #DBDBDB;
+  width: 350px;
+  margin-top: 30px;
 }
-
+  
 #form-box #logo-insta {
-    width: 175px;
-    height: 51px;
-    margin: 30px auto 12px;
-    background: #FFF;
+  width: 175px;
+  height: 51px;
+  margin: 30px auto 12px;
+  background-color: #FFF;
 }
-
+  
 #login-form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-
+  
 #login-form input {
-    display: block;
-    font-size: 12px;
-    padding: 12px 9px;
-    background-color: #FAFAFA;
-    border: 1px solid #DBDBDB;
-    border-radius: 3px;
-    width: 268px;
-    margin: 5px auto;
+  display: block;
+  font-size: 12px;
+  padding: 12px 9px;
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  width: 268px;
+  margin: 5px auto;
 }
-
+  
 #login-form input[type="submit"] {
-    background-color: #B2DFFC;
-    color: #FFF;
-    margin-top: 15px;
-    border-radius: 5px;
-    height: 30px;
-    border-color: #B2DFFC;
-    font-size: 13px;
-    padding: 0;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: #B2DFFC;
+  color: #FFF;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-color: #B2DFFC;
+  height: 30px;
+  font-size: 13px;
+  padding: 0;
+  font-weight: bold;
 }
-
-/*SEPARADOR*/
+  
+ /* SEPARADOR */
 .separator {
-    position: relative;
+  position: relative;
 }
-
+  
 .separator .line {
-    border-top: 1px solid #DBDBDB;
-    width: 268px;
-    margin: 25px auto 35px;
+  border-top: 1px solid #DBDBDB;
+  width: 268px;
+  margin: 25px auto 35px auto;
 }
-
+  
 .separator span {
-    position: absolute;
-    text-transform: uppercase;
-    color: #BBB;
-    width: 50px;
-    top: -6px;
-    left: 50%;
-    margin-left: -25px;
-    font-size: 14px;
-    font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  color: #BBB;
+  top: -6px;
+  width: 50px;
+  left: 50%;
+  margin-left: -25px;
+  font-size: 14px;
 }
-
-/*FACEBOOK LOGIN*/
-
+  
+/* FACEBOOK LOGIN */
+  
 #facebook-login {
-    margin-bottom: 25px;   
+  margin-bottom: 25px;
 }
-
+  
 #facebook-login a {
-    text-decoration: none;
-    color: #385185;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-decoration: none;
+  color: #385185;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+  
 #facebook-login img {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
-
+  
 #facebook-login span {
-    font-weight: bold;
-    font-size: 13px;
-    margin-top: 1px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 1px;
 }
-
-/*ESQUECEU A SENHA*/
-
+  
+  
+/* ESQUECEU A SENHA */
+  
 #forgot-pass {
-    margin-bottom: 20px;
-    font-size: 12px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+  
+#forgot-pass a {
+  text-decoration: none;
+  color: #373799;
+}
+  
+/* CHAMADA CADASTRO */
+  
+#register-container {
+  background-color: #FFF;
+  border: 1px solid #DBDBDB;
+  width: 350px;
+  margin-top: 10px;
+  padding: 25px;
+}
+  
+#register-container p {
+  font-size: 14px;
+  color: #262626;
+}
+  
+#register-container a {
+  color: #4A95F6;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-#forgot-pass a {
-    text-decoration: none;
-    color: #373799;
-    
+/*OBTER O APP*/
+
+#get-app-container {
+    text-align: center;
+    width: 350px;
 }
+
+#get-app-container p {
+    margin: 20px;
+    font-size: 13px;
+}
+
+#get-app-container a {
+    text-decoration: none;
+}
+
+#get-app-container img {
+    width: 136px;
+    height: 40px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+footer #footer-links {
+    list-style: none;
+}
+
+footer #footer-links li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;  
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: #00376b;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#copyright {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    margin-top: 10px;
+}
+
 
 
 

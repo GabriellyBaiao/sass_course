@@ -3,25 +3,27 @@ body {
 }
 .container {
     display: flex;
-    width: 1000px;
+    width: 100%;
     background-color: #FFF;
 }
 
 .box {
-    width: 100px;
     height: 100px;
+    flex-grow: 1;
+    flex-basis: 500px;
 }
 
 .first {
     background-color: red;
+    flex-shrink: 1;
 }
 
 .second {
     background-color: green;
-    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .third {
     background-color: blue;
-    flex-grow: 2;
+    flex-shrink: 2;
 }
